@@ -1,0 +1,94 @@
+ul{
+    border-style: outset;
+    border-width:1px;
+    border-color: grey;
+    width:50%;
+    height:65%;
+    background: linear-gradient(to right,rgba(164, 164, 152, 0.519),rgba(145, 138, 138, 0.835));
+   margin-top: 50px;
+   padding-top: 40px;
+   position:relative;
+   
+   padding-bottom:40px;
+   
+}
+#lol{
+    background: linear-gradient(to right,rgba(173, 169, 169, 0.555),rgb(154, 152, 152));
+    border-style: outset;
+     border-width: 1px;
+     border-color: grey;
+}
+body{
+     background-image: url("https://i.pinimg.com/736x/88/ce/65/88ce654d9b20cd4fcc4212d72c6e1c71.jpg") ;
+     background-size: cover;
+    background-position: center;
+     background-attachment: fixed;
+     
+}
+.lists{
+   
+    font-style:italic;
+    color:rgb(33, 28, 28)
+}
+div{
+   text-align: center;
+}
+h2{
+    
+    border-bottom-style: solid;
+    border-bottom-width:0.25px;
+}
+img{
+    width: 25%;
+    height: 50%;
+    float:right;
+    margin-right: 20px;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:rgb(84, 83, 83);
+}
+a:hover{
+    color:rgba(250, 247, 247, 0.741);
+}
+a:active{
+    color:rgb(115, 107, 98);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.textbox{
+    display:flex;
+    flex-direction:row;
+    border:outset;
+    border-width: 5px;
+    padding:5px;
+    border-color:rgba(157, 144, 129, 0.409);
+  align-items: center;
+  justify-content: space-between;
+    float:left;
+  
+}
+.box{
+    width:140px;
+    height: 140px;
+    border-width: 3px;
+    opacity:85%;
+    border-style: outset;
+    border-color: rgba(217, 197, 172, 0.622);
+    
+}
+p{
+   
+    color: rgb(33, 28, 28);
+    
+    margin-left: 20px;
+    margin-right: 20px;;
+    
+
+}
